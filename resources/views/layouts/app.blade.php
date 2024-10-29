@@ -26,7 +26,6 @@
                             Cerrar sesión
                         </button>
                     </form>
-
                 </nav>
                 @endauth
 

@@ -22,6 +22,7 @@ class LoginController extends Controller
             'email' => 'required|email',
             'password' => 'required',
         ]);
+        // Mensaje que pasa a la vista
         if(!Auth::attempt($request->only('email', 'password'), $request->remember)){
             // with es una forma de llenar los valores de (session) en vista login
             //En este caso manda un mensaje a la vista de login por si hay un error de autenticación

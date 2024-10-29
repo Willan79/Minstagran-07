@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-MinStagram
+   Asadero Pija Pariente
 @endsection
 
 @section('contenido')
