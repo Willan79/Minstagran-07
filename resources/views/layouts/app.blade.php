@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite('resources/css/app.css')
-        <title>MinStagram - @yield('titulo')</title>
+        <title>AsaderoPP - @yield('titulo')</title>
 
     </head>
     <body class="bg-gray-100">
         <header class="p-5 boerder-b bg-amber-500">
             <div class="container mx-auto flex justify-between">
-                <h1 class="text-3xl font-black">MinStagram</h1>
+                <h1 class="text-3xl font-black">AsaderoPP</h1>
 
                 <!--Autenticado-->
                 @auth
