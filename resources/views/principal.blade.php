@@ -17,7 +17,7 @@
     <!-- Sección de promoción y platos destacados -->
     <div class="mt-12 text-center  m-4">
         <h2 class="text-3xl font-bold mb-6 text-yellow-400">Nuestra Especialidad</h2>
-        <p class="text-xl text-white mb-10">Platos llenos de sabor y tradición que te harán sentir en casa.</p>
+        <p class="text-xl mb-10">Platos llenos de sabor y tradición que te harán sentir en casa.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Plato 1 -->
@@ -40,7 +40,7 @@
             </div>
             <!-- Plato 3 -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="{{ asset('img/1j.jpg') }}" alt="Asado Llanero" class="w-full h-56 object-cover">
+                <img src="{{ asset('img/N1.jpg') }}" alt="Asado Llanero" class="w-full h-56 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-3">Asado Llanero</h3>
                     <p class="text-gray-700 mb-4">El mejor asado de la región, con ese toque tradicional que solo encontrarás aquí.</p>
