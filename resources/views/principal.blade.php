@@ -1,11 +1,8 @@
 @extends('layouts.app')
 
-@section('titulo')
-   Asadero Pija Pariente
-@endsection
 
 @section('contenido')
-<div class="container py-10" style="min-height: calc(90vh - 64px);">
+<div class="container py-10 bg-slate-800" style="min-height: calc(90vh - 64px);">
     <!-- Encabezado con imagen de fondo -->
     <div class="relative bg-cover bg-center h-96 rounded-lg shadow-lg m-2" style="background-image: url('{{ asset('img/fondo-2.jpg') }}');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
@@ -17,7 +14,7 @@
     <!-- Sección de promoción y platos destacados -->
     <div class="mt-12 text-center  m-4">
         <h2 class="text-3xl font-bold mb-6 text-yellow-400">Nuestra Especialidad</h2>
-        <p class="text-xl mb-10">Platos llenos de sabor y tradición que te harán sentir en casa.</p>
+        <p class="text-xl text-white mb-10">Platos llenos de sabor y tradición que te harán sentir en casa.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Plato 1 -->
@@ -40,7 +37,7 @@
             </div>
             <!-- Plato 3 -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="{{ asset('img/N1.jpg') }}" alt="Asado Llanero" class="w-full h-56 object-cover">
+                <img src="{{ asset('img/N1.png') }}" alt="Asado Llanero" class="w-full h-56 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-3">Asado Llanero</h3>
                     <p class="text-gray-700 mb-4">El mejor asado de la región, con ese toque tradicional que solo encontrarás aquí.</p>
