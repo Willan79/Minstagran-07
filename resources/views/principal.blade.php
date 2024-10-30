@@ -2,7 +2,7 @@
 
 
 @section('contenido')
-<div class="container py-10 bg-slate-800" style="min-height: calc(90vh - 64px);">
+<div class="container py-10" style="min-height: calc(90vh - 64px);">
     <!-- Encabezado con imagen de fondo -->
     <div class="relative bg-cover bg-center h-96 rounded-lg shadow-lg m-2" style="background-image: url('{{ asset('img/fondo-2.jpg') }}');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">

@@ -6,9 +6,7 @@ Inicia sesión
 
 @section('contenido')
 <div class="md:flex md:justify-center md:gap-6 md:items-center ">
-    <div class="md:w-6/12 p-5">
-        <img src="{{ asset('img/login.jpg') }}" alt="Alternativa img">
-    </div>
+    
     <div class="md:w-4/12 bg-white p-4 shadow-xl rounded-lg">
         <form method="POST" action="{{ route('login') }}">
             @csrf <!--Token de seguridad-->

@@ -7,7 +7,7 @@
         <title>AsaderoPP - @yield('titulo')</title>
 
     </head>
-    <body class="bg-gray-100">
+    <body class=" bg-slate-800">
         <header class="p-5 boerder-b bg-amber-500">
             <div class="container mx-auto flex justify-between">
                 <h1 class="text-3xl font-black">AsaderoPP</h1>
@@ -40,13 +40,13 @@
 
             </div>
         </header>
-        <main class="container mx-auto mt-10">
-            <h2 class=" text-center mb-10 text-3xl">@yield('titulo')</h2>
+        <main class="container mx-auto mt-10 ">
+            <h2 class=" text-center mb-10 text-3xl text-amber-400">@yield('titulo')</h2>
             @yield('contenido')
         </main>
 
         <footer class="text-center p-5 text-gray-500 mt-10">
-            MinStagram todos los derechos reservados  {{ now()->year }}
+            Asadero pija pariente todos los derechos reservados  {{ now()->year }}
         </footer>
     </body>
 </html>
